@@ -1,8 +1,9 @@
 <template>
-  <div id="app">
-    <router-view/>
-  </div>
+	<div>
+		404
+	</div>
 </template>
+
 <script>
 	export default {
 		data(){
@@ -16,6 +17,6 @@
 		
 	}
 </script>
-<style lang="scss">
 
+<style lang="scss" scoped="scoped">
 </style>
