@@ -39,18 +39,16 @@
 		
 	}
 </script>
-<style lang="scss">
-*{
-	padding: 0;
-	margin: 0;
-}
-html,body,#app,.el-container{
-	width: 100%;
+<style lang="scss" >
+@import  "./assets/css/reset.css";
+
+html,body,#app,.content{
+	width:100%;
 	height: 100%;
 }
 .el-header, .el-footer {
     background-color: #545c64;
-    color: #333;
+    color: $defaultBgColor;
     text-align: center;
     line-height: 60px;
   }
