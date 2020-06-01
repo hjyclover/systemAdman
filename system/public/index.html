@@ -6,6 +6,17 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title><%= htmlWebpackPlugin.options.title %></title>
+		<script src="./browser.js" type="text/javascript" charset="utf-8"></script>
+		<style type="text/css">
+			#lswtColse{
+				position: fixed;
+				top: 50%;
+				left: 40%;
+				text-align: center;
+				transform: rotate(-50%,-50%,0);
+				
+			}
+		</style>
   </head>
   <body>
     <noscript>
@@ -15,3 +26,18 @@
     <!-- built files will be auto injected -->
   </body>
 </html>
+<script type="text/javascript">
+	var vision = Browser().replace(/[^0-9]/ig,"")
+	var browser = Browser().replace(/[^a-z]+/ig,"");
+	console.log(vision, browser)
+	if(browser == "IE"){
+		if(vision <= 80){
+			var MapDiv = document.getElementById("app");
+			var MapImg = document.createElement("div");
+			MapImg.id='lswtColse';
+			MapImg.innerHTML = "您的浏览器版本过低,请更新至最新版本!";
+			MapDiv.appendChild(MapImg);
+		}
+	}
+	
+</script>
