@@ -11,29 +11,41 @@ Vue.use(VueRouter)
 
 const routes = [
   {
-	path:"/",
-	redirect: { name:"Home" }
+		path:"/",
+		redirect: { name:"Home" }
   },
   {
     path: '/',
     name: 'Home',
-    component: Home
+    component: Home,
+		meta:{
+			requireAute:true
+		}
   },
   {
-	path: '/404',
-	name: 'NotFount',
-	component: NotFount
+		path: '/404',
+		name: 'NotFount',
+		component: NotFount
   },
   {
   	path: '/my',
   	name: 'Profile',
-  	component: Profile
+  	component: Profile,
+		meta:{
+			requireAute:true
+		}
   },
   {
   	path: '/login',
   	name: 'Login',
   	component: Login
   },
+	{
+		path: '*', // 页面不存在的情况下会跳到404页面
+		redirect: '/404',
+		name: 'NotFount',
+		hidden: true
+	}
   
 ]
 
