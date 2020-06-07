@@ -23,6 +23,9 @@ body,
 	width: 100%;
 	height: 100%;
 }
+.el-main{
+	line-height: 0 !important;
+}
 .el-header,
 .el-footer {
 	background-color: #545c64;
