@@ -14,7 +14,7 @@ Vue.config.productionTip = false
 router.beforeEach(function(to, from, next) {
   if (to.meta.requireAute) {
     //页面是否登录
-    if (localStorage.getItem("token")) {
+    if (localStorage.getItem('hasLogin')) {
       //本地存储中是否有token(uid)数据
       next(); //表示已经登录
     } else {
