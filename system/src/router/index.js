@@ -9,7 +9,8 @@ import {
 	NumberMarger,
 	resideMarge,
 	resourceMarge,
-	systemMarge
+	systemMarge,
+	addNewPage
 } from '../views/index.js'
 
 Vue.use(VueRouter)
@@ -56,7 +57,15 @@ const routes = [{
 			{
 				path: '/systemmarge',
 				name: 'systemMarge',
-				component: systemMarge
+				component: systemMarge,
+				children:[
+					{
+						path:"addpage",
+						name:'addpage',
+						component:addNewPage
+						
+					}
+				]
 			},
 		]
 	},

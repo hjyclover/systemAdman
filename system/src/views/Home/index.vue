@@ -11,7 +11,7 @@
 			</div>
 			<div class="homeHeadTitle bg-purple flexBox">
 				<span>999</span>
-				<span>注册人数</span>
+				<span>解读人数</span>
 			</div>
 			<div class="homeHeadTitle bg-purple flexBox">
 				<span>999</span>

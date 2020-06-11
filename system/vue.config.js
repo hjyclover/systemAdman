@@ -1,13 +1,13 @@
 module.exports = {
+
+	css: {
+		loaderOptions: {
+			sass: {
+				prependData: `@import "@/assets/css/index.scss";`
+			}
+		}
+	},
 	
-  css: {
-    loaderOptions: {
-      sass: {
-        prependData: `@import "@/assets/css/index.scss";`
-      }
-    }
-  },
-	
-  publicPath: './'
-	
+	publicPath: './'
+
 };

@@ -7,6 +7,7 @@ import NumberMarger from './numberMarge/index.vue'
 import resideMarge from './resicelMarge/index.vue'
 import resourceMarge from './resourceMange/index.vue'
 import systemMarge from './systemMarge/index.vue'
+import addNewPage from './systemMarge/addPage/addpage.vue'
 
 export  {
 	Home,
@@ -17,5 +18,6 @@ export  {
 	NumberMarger,
 	resideMarge,
 	resourceMarge,
-	systemMarge
+	systemMarge,
+	addNewPage
 }

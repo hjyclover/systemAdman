@@ -1,7 +1,8 @@
 <template>
 	<div id="app">
-		
-		<router-view />
+		<transition>
+			<router-view />
+		</transition>
 	</div>
 </template>
 <script>
@@ -32,6 +33,13 @@ body,
 	color: $defaultBgColor;
 	text-align: center;
 	line-height: 60px;
+	height: 60px !important;
+}
+.el-footer {
+	height: 50px !important;
+	line-height: 50px !important;
+	font-size: 12px;
+	color: #fff;
 }
 
 .el-aside {
@@ -47,10 +55,7 @@ body,
 	text-align: center;
 	line-height: 160px;
 }
-.footer {
-	font-size: 14px;
-	color: #fff;
-}
+
 .loginPage{
 	width: 100%;
 	height: 100%;
