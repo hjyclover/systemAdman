@@ -1,0 +1,358 @@
+@keyframes toUp{
+	0%{top: 17%;}
+	50%{top: 15%;}
+	100%{top: 17%;}
+}
+@-ms-keyframes toUp{
+	0%{top: 17%;}
+	50%{top: 15%;}
+	100%{top: 17%;}
+}
+@-moz-keyframes  toUp{
+	0%{top: 17%;}
+	50%{top: 15%;}
+	100%{top: 17%;}
+}
+@-webkit-keyframes toUp{
+	0%{top: 17%;}
+	50%{top: 15%;}
+	100%{top: 17%;}
+}
+/* next: ; */
+@keyframes toUp1{
+	0%{top: 49%;}
+	50%{top: 47%;}
+	100%{top: 49%;}
+}
+@-ms-keyframes toUp1{
+	0%{top: 49%;}
+	50%{top: 47%;}
+	100%{top: 49%;}
+}
+@-moz-keyframes  toUp1{
+	0%{top: 49%;}
+	50%{top: 47%;}
+	100%{top: 49%;}
+}
+@-webkit-keyframes toUp1{
+	0%{top: 49%;}
+	50%{top: 47%;}
+	100%{top: 49%;}
+}
+/* next */
+@keyframes  toDown{
+	0%{top: 32%;}
+	50%{top: 35%;}
+	100%{top: 32%;}
+}
+@-ms-keyframes  toDown{
+	0%{top: 32%;}
+	50%{top: 35%;}
+	100%{top: 32%;}
+}
+@-moz-keyframes   toDown{
+	0%{top: 32%;}
+	50%{top: 35%;}
+	100%{top: 32%;}
+}
+@-webkit-keyframes toDown{
+	0%{top: 32%;}
+	50%{top: 35%;}
+	100%{top: 32%;}
+}
+/* next */
+@keyframes  toBig{
+	0%{width: 300px;}
+	50%{width: 270px;}
+	100%{width: 300px;}
+}
+@-ms-keyframes  toBig{
+	0%{width: 300px;}
+	50%{width: 270px;}
+	100%{width: 300px;}
+}
+@-moz-keyframes   toBig{
+	0%{width: 300px;}
+	50%{width: 270px;}
+	100%{width: 300px;}
+}
+@-webkit-keyframes toBig{
+	0%{width: 300px;}
+	50%{width: 270px;}
+	100%{width: 300px;}
+}
+/* next:; */
+@keyframes  toUp2{
+	0%{top: 26%;}
+	50%{top: 24%;}
+	100%{top: 26%;}
+}
+@-ms-keyframes  toUp2{
+	0%{top: 26%;}
+	50%{top: 24%;}
+	100%{top: 26%;}
+}
+@-moz-keyframes   toUp2{
+	0%{top: 26%;}
+	50%{top: 24%;}
+	100%{top: 26%;}
+}
+@-webkit-keyframes toUp2{
+	0%{top: 26%;}
+	50%{top: 24%;}
+	100%{top: 26%;}
+}
+/* next */
+@keyframes  toUp3{
+	0%{top: 46%;}
+	50%{top: 49%;}
+	100%{top: 46%;}
+}
+@-ms-keyframes  toUp3{
+	0%{top: 46%;}
+	50%{top: 49%;}
+	100%{top: 46%;}
+}
+@-moz-keyframes   toUp3{
+	0%{top: 46%;}
+	50%{top: 49%;}
+	100%{top: 46%;}
+}
+@-webkit-keyframes toUp3{
+	0%{top: 46%;}
+	50%{top: 49%;}
+	100%{top: 46%;}
+}
+/* next	 */
+@keyframes  toBig1{
+	0%{width: 80px;}
+	50%{width: 60px;}
+	100%{width: 80px;}
+}
+@-ms-keyframes  toBig1{
+	0%{width: 80px;}
+	50%{width: 60px;}
+	100%{width: 80px;}
+}
+@-moz-keyframes   toBig1{
+	0%{width: 80px;}
+	50%{width: 60px;}
+	100%{width: 80px;}
+}
+@-webkit-keyframes toBig1{
+	0%{width: 80px;}
+	50%{width: 60px;}
+	100%{width: 80px;}
+}
+/* next */
+@keyframes  toDown1{
+	0%{bottom: 22% ;}
+	50%{bottom: 20% ;}
+	100%{bottom: 22% ;}
+}
+@-ms-keyframes  toDown1{
+	0%{bottom: 22% ;}
+	50%{bottom: 20% ;}
+	100%{bottom: 22% ;}
+}
+@-moz-keyframes   toDown1{
+	0%{bottom: 22% ;}
+	50%{bottom: 20% ;}
+	100%{bottom: 22% ;}
+}
+@-webkit-keyframes toDown1{
+	0%{bottom: 22% ;}
+	50%{bottom: 20% ;}
+	100%{bottom: 22% ;}
+}
+/* next: ; */
+@keyframes  toDown2{
+	0%{bottom: 17% ;}
+	50%{bottom: 15% ;}
+	100%{bottom: 17% ;}
+}
+@-ms-keyframes  toDown2{
+	0%{bottom: 17% ;}
+	50%{bottom: 15% ;}
+	100%{bottom: 17% ;}
+}
+@-moz-keyframes   toDown2{
+	0%{bottom: 17% ;}
+	50%{bottom: 15% ;}
+	100%{bottom: 17% ;}
+}
+@-webkit-keyframes toDown2{
+	0%{bottom: 17% ;}
+	50%{bottom: 15% ;}
+	100%{bottom: 17% ;}
+}
+/* next: */
+@keyframes  toDown3{
+	0%{top: 5%;}
+	50%{top: 7%;}
+	100%{top: 5%;}
+}
+@-ms-keyframes  toDown3{
+	0%{top: 5%;}
+	50%{top: 7%;}
+	100%{top: 5%;}
+}
+@-moz-keyframes   toDown3{
+	0%{top: 5%;}
+	50%{top: 7%;}
+	100%{top: 5%;}
+}
+@-webkit-keyframes toDown3{
+	0%{top: 5%;}
+	50%{top: 7%;}
+	100%{top: 5%;}
+}
+/* next */
+
+@keyframes  toUp4{
+	0%{top: 8%;}
+	50%{top: 6%;}
+	100%{top: 8%;}
+}
+@-ms-keyframes  toUp4{
+	0%{top: 8%;}
+	50%{top: 6%;}
+	100%{top: 8%;}
+}
+@-moz-keyframes   toUp4{
+	0%{top: 8%;}
+	50%{top: 6%;}
+	100%{top: 8%;}
+}
+@-webkit-keyframes toUp4{
+	0%{top: 8%;}
+	50%{top: 6%;}
+	100%{top: 8%;}
+}
+/* next: ; */
+@keyframes toDown4{
+	0%{top: 2%;}
+	50%{top: 4%;}
+	100%{top: 2%;}
+}
+@-ms-keyframes toDown4{
+	0%{top: 2%;}
+	50%{top: 4%;}
+	100%{top: 2%;}
+}
+@-moz-keyframes  toDown4{
+	0%{top: 2%;}
+	50%{top: 4%;}
+	100%{top: 2%;}
+}
+@-webkit-keyframes toDown4{
+	0%{top: 2%;}
+	50%{top: 4%;}
+	100%{top: 2%;}
+}
+/* next: ; */
+@keyframes toBig2{
+	0%{width: 130px;height: 90px;}
+	50%{width: 120px;height: 60px;}
+	100%{width: 130px;height: 90px;}
+}
+@-ms-keyframes toBig2{
+	0%{width: 130px;height: 90px;}
+	50%{width: 120px;height: 60px;}
+	100%{width: 130px;height: 90px;}
+}
+@-moz-keyframes toBig2{
+	0%{width: 130px;height: 90px;}
+	50%{width: 120px;height: 60px;}
+	100%{width: 130px;height: 90px;}
+}
+@-webkit-keyframes toBig2{
+	0%{width: 130px;height: 90px;}
+	50%{width: 120px;height: 60px;}
+	100%{width: 130px;height: 90px;}
+}
+/* next: ; */
+@keyframes toBig3{
+	0%{width: 100px;height: 80px;}
+	50%{width: 90px;height: 70px;}
+	100%{width: 100px;height: 80px;}
+}
+@-ms-keyframes toBig3{
+	0%{width: 100px;height: 80px;}
+	50%{width: 90px;height: 70px;}
+	100%{width: 100px;height: 80px;}
+}
+@-moz-keyframes toBig3{
+	0%{width: 100px;height: 80px;}
+	50%{width: 90px;height: 70px;}
+	100%{width: 100px;height: 80px;}
+}
+@-webkit-keyframes toBig3{
+	0%{width: 100px;height: 80px;}
+	50%{width: 90px;height: 70px;}
+	100%{width: 100px;height: 80px;}
+}
+/* next: ; */
+@keyframes toBig4{
+	0%{width: 120px;height: 140px;}
+	50%{width: 110px;height: 130px;}
+	100%{width: 120px;height: 140px;}
+}
+@-ms-keyframes toBig4{
+	0%{width: 120px;height: 140px;}
+	50%{width: 110px;height: 130px;}
+	100%{width: 120px;height: 140px;}
+}
+@-moz-keyframes toBig4{
+	0%{width: 120px;height: 140px;}
+	50%{width: 110px;height: 130px;}
+	100%{width: 120px;height: 140px;}
+}
+@-webkit-keyframes toBig4{
+	0%{width: 120px;height: 140px;}
+	50%{width: 110px;height: 130px;}
+	100%{width: 120px;height: 140px;}
+}
+/* next: ; */
+@keyframes toBig5{
+	0%{width: 50px;height: 30px;}
+	50%{width: 40px;height: 20px;}
+	100%{width: 50px;height: 30px;}
+}
+@-ms-keyframes toBig5{
+	0%{width: 50px;height: 30px;}
+	50%{width: 40px;height: 20px;}
+	100%{width: 50px;height: 30px;}
+}
+@-moz-keyframes toBig5{
+	0%{width: 50px;height: 30px;}
+	50%{width: 40px;height: 20px;}
+	100%{width: 50px;height: 30px;}
+}
+@-webkit-keyframes toBig5{
+	0%{width: 50px;height: 30px;}
+	50%{width: 40px;height: 20px;}
+	100%{width: 50px;height: 30px;}
+}
+/* next: ; */
+@keyframes toBig6{
+	0%{width: 160px;height: 100px;}
+	50%{width: 150px;height: 90px;}
+	100%{width: 160px;height: 100px;}
+}
+@-ms-keyframes toBig6{
+	0%{width: 160px;height: 100px;}
+	50%{width: 150px;height: 90px;}
+	100%{width: 160px;height: 100px;}
+}
+@-moz-keyframes toBig6{
+	0%{width: 160px;height: 100px;}
+	50%{width: 150px;height: 90px;}
+	100%{width: 160px;height: 100px;}
+}
+@-webkit-keyframes toBig6{
+	0%{width: 160px;height: 100px;}
+	50%{width: 150px;height: 90px;}
+	100%{width: 160px;height: 100px;}
+}
+
