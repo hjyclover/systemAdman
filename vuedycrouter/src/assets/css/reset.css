@@ -51,6 +51,7 @@
  	align-items: center;
  	justify-content: center;
  }
+
   
  /* custom */
  a{
@@ -112,3 +113,6 @@
  }
  
  @font-face {font-family: 'huxiaobo-gdh205fa9e5df21a52';src: url('//cdn.repository.webfont.com/webfonts/nomal/137810/46969/5ea68753f629d811308e770b.gif?r=136365523595');src: url('//cdn.repository.webfont.com/webfonts/nomal/137810/46969/5ea68753f629d811308e770b.gif?r=136365523595?#iefix') format('embedded-opentype'),url('//cdn.repository.webfont.com/webfonts/nomal/137810/46969/5ea68753f629d811308e770b.png?r=136365523595') format('woff2'),url('//cdn.repository.webfont.com/webfonts/nomal/137810/46969/5ea68753f629d811308e770b.bmp?r=136365523595') format('woff'),url('//cdn.repository.webfont.com/webfonts/nomal/137810/46969/5ea68753f629d811308e770b.jpg?r=136365523595') format('truetype');font-weight: normal;font-style: normal;}.css205fa9e5df21a52{font-family: 'huxiaobo-gdh205fa9e5df21a52';}
+ 
+ 
+ 

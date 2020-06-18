@@ -109,31 +109,9 @@
 						rootRul: '/home',
 						child: [{
 								id: '1',
-								name: '首页1',
-								path: "/home",
-								child:[
-									{
-										id: '1-1',
-										name: '首页二级菜单',
-										path: "/common"
-									}
-								]
-							},
-							{
-								id: '2',
-								name: '首页2',
-								path: "/home",
+								name: '数据总揽',
+								path: "/home"
 								
-							},
-							{
-								id: '3',
-								name: '首页3',
-								path: "/home"
-							},
-							{
-								id: '4',
-								name: '首页4',
-								path: "/home"
 							}
 						],
 					},
@@ -303,7 +281,7 @@
 					this.defaultActive = gransunArr[0].path
 				}
 			}
-			
+			window.location.href = "http://localhost:8080/#" + this.defaultActive
 			console.log(this.defaultActive)
 		},
 		methods: {
